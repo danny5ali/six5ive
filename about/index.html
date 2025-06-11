@@ -7,24 +7,38 @@
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-  <div class="hamburger" id="hamburger"><div></div><div></div><div></div></div>
+  <!-- Hamburger Menu -->
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Dropdown Menu -->
   <nav class="menu" id="menu">
     <a href="../">Home</a>
+    <a href="../about/">About</a>
     <a href="../work/">Past Work</a>
     <a href="../booking/">Booking</a>
   </nav>
+
+  <!-- Page Content -->
   <main class="main-content">
     <div class="page-text">
       <h1>About</h1>
       <p>six5ive studios is an avant-garde audio-visual production house.</p>
-      <p>We merge narrative cinema with music…</p>
+      <p>We merge narrative cinema with music and brand storytelling — creating works that feel timeless and culturally resonant. Our projects blend film direction, original music, and visual art into immersive experiences.</p>
+      <p>Founded by Danny Ali in San Francisco, six5ive delivers films, visual albums, branded content, and campaign films that live beyond the scroll.</p>
+      <p><strong>Recent works include:</strong></p>
       <ul>
-        <li>“CRASH” — visual single (2025)</li>
-        <li>“RIPPIN THE SEAMS” — visual album (2025)</li>
-        <li>Campaigns for Topo Chico &amp; Neutrogena</li>
+        <li>“CRASH” — visual single / cult classic video</li>
+        <li>“RIPPIN THE SEAMS” — visual album project</li>
+        <li>Campaign development for Topo Chico, Neutrogena</li>
       </ul>
+      <p>We believe great content should feel like a film — even when it sells a product.</p>
     </div>
   </main>
+
   <script>
     document.getElementById('hamburger')
       .addEventListener('click', ()=> document.getElementById('menu').classList.toggle('show'));
