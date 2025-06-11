@@ -7,22 +7,44 @@
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-  <div class="hamburger" id="hamburger"><div></div><div></div><div></div></div>
+  <!-- Hamburger Menu -->
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Dropdown Menu -->
   <nav class="menu" id="menu">
     <a href="../">Home</a>
     <a href="../about/">About</a>
+    <a href="../work/">Past Work</a>
     <a href="../booking/">Booking</a>
   </nav>
+
+  <!-- Page Content -->
   <main class="main-content">
     <div class="page-text">
       <h1>Past Work</h1>
+      <p>Selected works from the six5ive studios catalog:</p>
       <ul>
-        <li><strong>CRASH</strong> — Official Music Video (2025)</li>
-        <li><strong>RIPPIN THE SEAMS</strong> — Visual Album (2025)</li>
-        <li><strong>Topo Chico</strong> &amp; <strong>Neutrogena</strong> Campaigns</li>
+        <li><strong>Music / Visual Albums</strong><br>
+            “CRASH” — Official Music Video (2024)<br>
+            “RIPPIN THE SEAMS” — Visual Album (2025)
+        </li>
+        <li><strong>Branded Content</strong><br>
+            Topo Chico — The Legend of Topo (Pitch Video Concept)<br>
+            Neutrogena — Skincare Anthem Visual (Concept Development)
+        </li>
+        <li><strong>Short Films & Experiments</strong><br>
+            “NIGHTDRIVE” — 16mm short visual poem (unreleased)<br>
+            “ALIWORLD.exe” — Visual EP Project (Prototype)
+        </li>
       </ul>
+      <p>For full reels or project inquiries, please contact us.</p>
     </div>
   </main>
+
   <script>
     document.getElementById('hamburger')
       .addEventListener('click', ()=> document.getElementById('menu').classList.toggle('show'));
