@@ -3,40 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Six5ive Studios - Past Work</title>
-  <link rel="stylesheet" href="/style.css" />
+  <title>six5ive studios – Past Work</title>
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-  <!-- Hamburger Menu -->
-  <div class="hamburger" id="hamburger">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-
-  <!-- Dropdown Menu -->
+  <div class="hamburger" id="hamburger"><div></div><div></div><div></div></div>
   <nav class="menu" id="menu">
-    <a href="/about">About</a>
-    <a href="/work">Past Work</a>
-    <a href="/booking">Booking</a>
-    <a href="/">Home</a>
+    <a href="../">Home</a>
+    <a href="../about/">About</a>
+    <a href="../booking/">Booking</a>
   </nav>
-
-  <!-- Page Content -->
   <main class="main-content">
     <div class="page-text">
       <h1>Past Work</h1>
-      <p>Selected works from our catalog — music videos, short films, visual campaigns, and collaborations.</p>
+      <ul>
+        <li><strong>CRASH</strong> — Official Music Video (2025)</li>
+        <li><strong>RIPPIN THE SEAMS</strong> — Visual Album (2025)</li>
+        <li><strong>Topo Chico</strong> &amp; <strong>Neutrogena</strong> Campaigns</li>
+      </ul>
     </div>
   </main>
-
   <script>
-    const hamburger = document.getElementById('hamburger');
-    const menu = document.getElementById('menu');
-
-    hamburger.addEventListener('click', function() {
-      menu.classList.toggle('show');
-    });
+    document.getElementById('hamburger')
+      .addEventListener('click', ()=> document.getElementById('menu').classList.toggle('show'));
   </script>
 </body>
 </html>
