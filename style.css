@@ -26,6 +26,16 @@ body {
   padding: 20px;
 }
 
+.studio-logo {
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .reel-video {
   max-width: 800px;
   max-height: 450px;
