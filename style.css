@@ -29,13 +29,14 @@ body {
 
 /* Logo */
 .studio-logo {
-  max-width: 300px;
-  width: 100%;
-  margin-bottom: 20px;
+  max-width: 200px;         /* tighter max width */
+  width: auto;
+  height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 20px auto; /* perfectly centered + spacing below */
+  object-fit: contain;      /* in case the logo has weird padding */
 }
+
 
 /* Video */
 .reel-video {
