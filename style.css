@@ -20,12 +20,14 @@ body {
 /* Centered Main Content */
 .main-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   padding: 20px;
 }
 
+/* Logo */
 .studio-logo {
   max-width: 300px;
   width: 100%;
@@ -35,7 +37,7 @@ body {
   margin-right: auto;
 }
 
-
+/* Video */
 .reel-video {
   max-width: 800px;
   max-height: 450px;
