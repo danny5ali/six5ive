@@ -8,38 +8,28 @@
 </head>
 <body>
   <!-- Hamburger Menu -->
-  <div class="hamburger" id="hamburger">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
+  <div class="hamburger" id="hamburger"><div></div><div></div><div></div></div>
 
   <!-- Dropdown Menu -->
   <nav class="menu" id="menu">
-    <a href="/about">About</a>
-    <a href="/work">Past Work</a>
-    <a href="/booking">Booking</a>
+    <a href="about/">About</a>
+    <a href="work/">Past Work</a>
+    <a href="booking/">Booking</a>
   </nav>
 
   <!-- Centered Director's Reel -->
-
   <main class="main-content">
-  <img src="assets/six5ive_studios_black_text.png" alt="Six5ive Studios" class="studio-logo" />
-
-  <video autoplay muted loop playsinline class="reel-video">
-    <source src="assets/Sequence 170.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+    <img src="assets/six5ive_studios_black_text.png" alt="Six5ive Studios Logo" class="studio-logo" />
+    <video autoplay muted loop playsinline class="reel-video">
+      <source src="assets/Sequence 170.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
   </main>
 
-
   <script>
-    const hamburger = document.getElementById('hamburger');
-    const menu = document.getElementById('menu');
-
-    hamburger.addEventListener('click', () => {
-      menu.classList.toggle('show');
-    });
+    document.getElementById('hamburger')
+      .addEventListener('click', ()=> document.getElementById('menu').classList.toggle('show'));
   </script>
 </body>
 </html>
+
