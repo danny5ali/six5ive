@@ -31,8 +31,8 @@ body {
   max-height: 450px;
   width: 100%;
   height: auto;
-  border: 2px solid var(--six5ive-black);
-  background: var(--six5ive-white);
+  display: block;
+  margin: 0 auto;
 }
 
 /* Hamburger */
